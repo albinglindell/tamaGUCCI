@@ -1,0 +1,60 @@
+
+.image{
+    background-image: url(./tamagucci.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    height: 100vh;
+    align-self: center;
+    position: relative;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image > .playwrapper{
+    background-color: rgb(230, 230, 230);
+    width: 18.5%;
+    left: 50.3%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    height: 40vh;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hidden{
+    display: none;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.buttonsWrapper{
+    position: absolute;
+    top: 85%;
+    left: 50.5%;
+    transform: translate(-50%, -50%);
+    width: 20.7vw;
+    display: flex;
+    justify-content: space-between;
+    height: 14vh;
+}
+.button{
+align-self: flex-start;
+height: 8vh;
+width: 4vw;
+border-radius: 50px;
+cursor: pointer;
+}
+button:nth-child(2){
+    align-self: center;
+}
+.cardImage{
+    width: 65px;
+}
